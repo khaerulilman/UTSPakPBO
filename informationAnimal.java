@@ -103,7 +103,7 @@ class CatFoodCost implements FoodCost {
     }
 }
 
-public class infomationAnimal {
+public class informationAnimal {
     public static void main(String[] args) {
         // animal dog
         Dog dog = new Dog();
