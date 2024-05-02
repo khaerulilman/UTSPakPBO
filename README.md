@@ -51,6 +51,6 @@ class CatFoodCost implements FoodCost {
         return (30/numberOfDays)*priceFood;
     }
 }
-
+```
 
 Kemudian disini menerapkan konsep interface, disini interface yang dibuat diberi nama FoodCost. Implementasi class interfacenya yaitu class DogFoodCost dan CatFoodCost.
