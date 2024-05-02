@@ -16,8 +16,8 @@ Ketiga variabel tersebut kita buatkan setter dan getter sebagai konsep dari enca
 Kemudian untuk konsep inherintance diterapkan pada class Dog dan class Cat yang mewariskan class Animal, sehingga class Dog dan Animal dapat menggunakan method eat() , sleep() dan run().
 
 Kemudian untuk konsep polymorphism pada bagian ini mengimplementasikan contoh kode program Overriding. Contohnya pada method eat() ditemukan pada class induk (Animal) dan class child(Dog and Cat).
-
-``// interface
+```
+// interface
 interface FoodCost {
     double calculateCost();
 }
@@ -44,5 +44,13 @@ class CatFoodCost implements FoodCost {
 
     public CatFoodCost(double priceFood, double numberOfDays){
         this.priceFood = priceFood;
+        this.numberOfDays = numberOfDays;
+    }
+    @Override
+    public double calculateCost() {
+        return (30/numberOfDays)*priceFood;
+    }
+}
+
 
 Kemudian disini menerapkan konsep interface, disini interface yang dibuat diberi nama FoodCost. Implementasi class interfacenya yaitu class DogFoodCost dan CatFoodCost.
