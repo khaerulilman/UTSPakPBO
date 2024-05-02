@@ -6,6 +6,7 @@ code diatas merupakan implementasi dari konsep konsep
 2. Inheritance
 3. Polimorphism overriding
 4. Interface 
+
 program disini mencetak informarsi seperti 
 - numberOfLegs  
 - animalType 
