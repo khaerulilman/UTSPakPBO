@@ -10,6 +10,7 @@ program disini mencetak informarsi seperti
 - numberOfLegs  
 - animalType 
 - foodGroup
+
 Ketiga variabel tersebut kita buatkan setter dan getter sebagai konsep dari encapsulationnya.
 
 Kemudian untuk konsep inherintance diterapkan pada class Dog dan class Cat yang mewariskan class Animal, sehingga class Dog dan Animal dapat menggunakan method eat() , sleep() dan run().
